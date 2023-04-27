@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="snake 2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/snake 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/snake 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="include/AssetManager.hpp" />
+		<Unit filename="include/Game.hpp" />
+		<Unit filename="include/GameOver.hpp" />
+		<Unit filename="include/GamePlay.hpp" />
+		<Unit filename="include/MainMenu.hpp" />
+		<Unit filename="include/PauseGame.hpp" />
+		<Unit filename="include/Snake.hpp" />
+		<Unit filename="include/State.hpp" />
+		<Unit filename="include/StateManager.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AssetManager.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/GameOver.cpp" />
+		<Unit filename="src/GamePlay.cpp" />
+		<Unit filename="src/MainMenu.cpp" />
+		<Unit filename="src/PauseGame.cpp" />
+		<Unit filename="src/Snake.cpp" />
+		<Unit filename="src/StateManager.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

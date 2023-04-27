@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="testmenu" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/testmenu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/testmenu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="Media/Sansation.ttf" />
+		<Unit filename="Media/Textures/ButtonNormal.png" />
+		<Unit filename="Media/Textures/ButtonPressed.png" />
+		<Unit filename="Media/Textures/ButtonSelected.png" />
+		<Unit filename="Media/Textures/Desert.png" />
+		<Unit filename="Media/Textures/Eagle.png" />
+		<Unit filename="Media/Textures/Raptor.png" />
+		<Unit filename="Media/Textures/TitleScreen.png" />
+		<Unit filename="include/Application.hpp" />
+		<Unit filename="include/Button.hpp" />
+		<Unit filename="include/Category.hpp" />
+		<Unit filename="include/Command.hpp" />
+		<Unit filename="include/CommandQueue.hpp" />
+		<Unit filename="include/Component.hpp" />
+		<Unit filename="include/Container.hpp" />
+		<Unit filename="include/Foreach" />
+		<Unit filename="include/Foreach.hpp" />
+		<Unit filename="include/Label.hpp" />
+		<Unit filename="include/MenuState.hpp" />
+		<Unit filename="include/PauseState.hpp" />
+		<Unit filename="include/ResourceHolder.hpp" />
+		<Unit filename="include/ResourceHolder.inl" />
+		<Unit filename="include/ResourceIdentifiers" />
+		<Unit filename="include/ResourceIdentifiers.hpp" />
+		<Unit filename="include/SceneNode.hpp" />
+		<Unit filename="include/SettingsState.hpp" />
+		<Unit filename="include/State.hpp" />
+		<Unit filename="include/StateIdentifiers.hpp" />
+		<Unit filename="include/StateStack.hpp" />
+		<Unit filename="include/TitleState.hpp" />
+		<Unit filename="include/Utility.hpp" />
+		<Unit filename="include/Utility.inl" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Application.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/Command.cpp" />
+		<Unit filename="src/CommandQueue.cpp" />
+		<Unit filename="src/Component.cpp" />
+		<Unit filename="src/Container.cpp" />
+		<Unit filename="src/Label.cpp" />
+		<Unit filename="src/MenuState.cpp" />
+		<Unit filename="src/PauseState.cpp" />
+		<Unit filename="src/SceneNode.cpp" />
+		<Unit filename="src/SettingsState.cpp" />
+		<Unit filename="src/State.cpp" />
+		<Unit filename="src/StateStack.cpp" />
+		<Unit filename="src/TitleState.cpp" />
+		<Unit filename="src/Utility.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

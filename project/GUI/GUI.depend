@@ -1,0 +1,829 @@
+# depslib dependency file v1.0
+1625414035 source:c:\users\leanh\desktop\gui\src\command.cpp
+	<Command.hpp>
+
+1625413970 c:\users\leanh\desktop\gui\include\command.hpp
+	<Category.hpp>
+	<SFML/System/Time.hpp>
+	<functional>
+	<cassert>
+
+1625413942 c:\users\leanh\desktop\gui\include\category.hpp
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1539635488 c:\sfml-2.5.1\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1625455302 source:c:\users\leanh\desktop\gui\src\component.cpp
+	<Component.hpp>
+
+1625455264 c:\users\leanh\desktop\gui\include\component.hpp
+	<SFML/System/NonCopyable.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<memory>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\vector2.inl
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\rect.inl
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1625455198 source:c:\users\leanh\desktop\gui\src\commandqueue.cpp
+	<CommandQueue.hpp>
+	<SceneNode.hpp>
+
+1625455136 c:\users\leanh\desktop\gui\include\commandqueue.hpp
+	<Command.hpp>
+	<queue>
+
+1625456279 c:\users\leanh\desktop\gui\include\scenenode.hpp
+	<Category.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+	<memory>
+
+1625455442 source:c:\users\leanh\desktop\gui\src\entity.cpp
+	<Entity.hpp>
+
+1625455421 c:\users\leanh\desktop\gui\include\entity.hpp
+	<SceneNode.hpp>
+
+1625456453 source:c:\users\leanh\desktop\gui\main.cpp
+	<Application.hpp>
+	<stdexcept>
+	<iostream>
+
+1625410299 c:\users\leanh\desktop\gui\include\application.hpp
+	<ResourceHolder.hpp>
+	<ResourceIdentifiers.hpp>
+	<Player.hpp>
+	<StateStack.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1625456129 c:\users\leanh\desktop\gui\include\resourceholder.hpp
+	<map>
+	<string>
+	<memory>
+	<stdexcept>
+	<cassert>
+	"ResourceHolder.inl"
+
+1625456170 c:\users\leanh\desktop\gui\include\resourceholder.inl
+
+1625456232 c:\users\leanh\desktop\gui\include\resourceidentifiers.hpp
+
+1625455878 c:\users\leanh\desktop\gui\include\player.hpp
+	<Command.hpp>
+	<SFML/Window/Event.hpp>
+	<map>
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\utf.inl
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\string.inl
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\vector3.inl
+
+1625456722 c:\users\leanh\desktop\gui\include\statestack.hpp
+	<State.hpp>
+	<StateIdentifiers.hpp>
+	<ResourceIdentifiers.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<utility>
+	<functional>
+	<map>
+
+1625456586 c:\users\leanh\desktop\gui\include\state.hpp
+	<StateIdentifiers.hpp>
+	<ResourceIdentifiers.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Window/Event.hpp>
+	<memory>
+
+1625456665 c:\users\leanh\desktop\gui\include\stateidentifiers.hpp
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\primitivetype.hpp
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1539635488 c:\sfml-2.5.1\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\window\windowstyle.hpp
+
+1525812018 c:\sfml-2.5.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1625455570 source:c:\users\leanh\desktop\gui\src\gamestate.cpp
+	<GameState.hpp>
+
+1625455555 c:\users\leanh\desktop\gui\include\gamestate.hpp
+	<State.hpp>
+	<World.hpp>
+	<Player.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1625457073 c:\users\leanh\desktop\gui\include\world.hpp
+	<ResourceHolder.hpp>
+	<ResourceIdentifiers.hpp>
+	<SceneNode.hpp>
+	<SpriteNode.hpp>
+	<Aircraft.hpp>
+	<CommandQueue.hpp>
+	<Command.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<array>
+	<queue>
+
+1625456530 c:\users\leanh\desktop\gui\include\spritenode.hpp
+	<SceneNode.hpp>
+	<SFML/Graphics/Sprite.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1625410198 c:\users\leanh\desktop\gui\include\aircraft.hpp
+	<Entity.hpp>
+	<ResourceIdentifiers.hpp>
+	<SFML/Graphics/Sprite.hpp>
+
+1625456605 source:c:\users\leanh\desktop\gui\src\state.cpp
+	<State.hpp>
+	<StateStack.hpp>
+
+1625410162 source:c:\users\leanh\desktop\gui\src\aircraft.cpp
+	<Aircraft.hpp>
+	<ResourceHolder.hpp>
+	<Utility.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1625457177 c:\users\leanh\desktop\gui\include\utility.hpp
+	<SFML/Window/Keyboard.hpp>
+	<sstream>
+	<Utility.inl>
+
+1625457021 c:\users\leanh\desktop\gui\include\utility.inl
+
+1625413820 source:c:\users\leanh\desktop\gui\src\button.cpp
+	<Button.hpp>
+	<Utility.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1625413212 c:\users\leanh\desktop\gui\include\button.hpp
+	<Component.hpp>
+	<ResourceIdentifiers.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<vector>
+	<string>
+	<memory>
+	<functional>
+
+1625455641 source:c:\users\leanh\desktop\gui\src\label.cpp
+	<Label.hpp>
+	<Utility.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1625455615 c:\users\leanh\desktop\gui\include\label.hpp
+	<Component.hpp>
+	<ResourceIdentifiers.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1625455745 source:c:\users\leanh\desktop\gui\src\menustate.cpp
+	<MenuState.hpp>
+	<Button.hpp>
+	<Utility.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/View.hpp>
+
+1625455711 c:\users\leanh\desktop\gui\include\menustate.hpp
+	<State.hpp>
+	<Container.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1625455344 c:\users\leanh\desktop\gui\include\container.hpp
+	<Component.hpp>
+	<vector>
+	<memory>
+
+1625455837 source:c:\users\leanh\desktop\gui\src\pausestate.cpp
+	<PauseState.hpp>
+	<Button.hpp>
+	<Utility.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/View.hpp>
+
+1625455809 c:\users\leanh\desktop\gui\include\pausestate.hpp
+	<State.hpp>
+	<Container.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\sfml-2.5.1\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1625456944 source:c:\users\leanh\desktop\gui\src\titlestate.cpp
+	<TitleState.hpp>
+	<Utility.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+
+1625456858 c:\users\leanh\desktop\gui\include\titlestate.hpp
+	<State.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1625456993 source:c:\users\leanh\desktop\gui\src\utility.cpp
+	<Utility.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<cmath>
+
+1625457094 source:c:\users\leanh\desktop\gui\src\world.cpp
+	<World.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<algorithm>
+	<cmath>
+
+1625410359 source:c:\users\leanh\desktop\gui\src\application.cpp
+	<Application.hpp>
+	<Utility.hpp>
+	<State.hpp>
+	<StateIdentifiers.hpp>
+	<TitleState.hpp>
+	<GameState.hpp>
+	<MenuState.hpp>
+	<PauseState.hpp>
+	<SettingsState.hpp>
+
+1625456383 c:\users\leanh\desktop\gui\include\settingsstate.hpp
+	<State.hpp>
+	<Player.hpp>
+	<Container.hpp>
+	<Button.hpp>
+	<Label.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<array>
+
+1625456407 source:c:\users\leanh\desktop\gui\src\settingstate.cpp
+	<SettingsState.hpp>
+	<Utility.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+
+1625457433 source:c:\users\leanh\desktop\gui\src\spritenode.cpp
+	<SpriteNode.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1625455379 source:c:\users\leanh\desktop\gui\src\container.cpp
+	<Container.hpp>
+	<Foreach.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1625457289 c:\users\leanh\desktop\gui\include\foreach.hpp
+
+1625455908 source:c:\users\leanh\desktop\gui\src\player.cpp
+	<Player.hpp>
+	<CommandQueue.hpp>
+	<Aircraft.hpp>
+	<Foreach.hpp>
+	<map>
+	<string>
+	<algorithm>
+
+1625456300 source:c:\users\leanh\desktop\gui\src\scenenode.cpp
+	<SceneNode.hpp>
+	<Command.hpp>
+	<Foreach.hpp>
+	<algorithm>
+	<cassert>
+
+1625456740 source:c:\users\leanh\desktop\gui\src\statestack.cpp
+	<StateStack.hpp>
+	<Foreach.hpp>
+	<cassert>
+
+1625457392 source:c:\users\leanh\desktop\gui\src\settingsstate.cpp
+	<SettingsState.hpp>
+	<Utility.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\main.cpp
+	<Application.hpp>
+	<stdexcept>
+	<iostream>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\application.hpp
+	<ResourceHolder.hpp>
+	<ResourceIdentifiers.hpp>
+	<Player.hpp>
+	<StateStack.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\resourceholder.hpp
+	<map>
+	<string>
+	<memory>
+	<stdexcept>
+	<cassert>
+	"ResourceHolder.inl"
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\resourceholder.inl
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\resourceidentifiers.hpp
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\player.hpp
+	<Command.hpp>
+	<SFML/Window/Event.hpp>
+	<map>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\command.hpp
+	<Category.hpp>
+	<SFML/System/Time.hpp>
+	<functional>
+	<cassert>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\category.hpp
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\statestack.hpp
+	<State.hpp>
+	<StateIdentifiers.hpp>
+	<ResourceIdentifiers.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<utility>
+	<functional>
+	<map>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\state.hpp
+	<StateIdentifiers.hpp>
+	<ResourceIdentifiers.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Window/Event.hpp>
+	<memory>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\stateidentifiers.hpp
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\aircraft.cpp
+	<Aircraft.hpp>
+	<ResourceHolder.hpp>
+	<Utility.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\aircraft.hpp
+	<Entity.hpp>
+	<ResourceIdentifiers.hpp>
+	<SFML/Graphics/Sprite.hpp>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\entity.hpp
+	<SceneNode.hpp>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\scenenode.hpp
+	<Category.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+	<memory>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\utility.hpp
+	<SFML/Window/Keyboard.hpp>
+	<sstream>
+	<Utility.inl>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\utility.inl
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\application.cpp
+	<Application.hpp>
+	<Utility.hpp>
+	<State.hpp>
+	<StateIdentifiers.hpp>
+	<TitleState.hpp>
+	<GameState.hpp>
+	<MenuState.hpp>
+	<PauseState.hpp>
+	<SettingsState.hpp>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\titlestate.hpp
+	<State.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\gamestate.hpp
+	<State.hpp>
+	<World.hpp>
+	<Player.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\world.hpp
+	<ResourceHolder.hpp>
+	<ResourceIdentifiers.hpp>
+	<SceneNode.hpp>
+	<SpriteNode.hpp>
+	<Aircraft.hpp>
+	<CommandQueue.hpp>
+	<Command.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<array>
+	<queue>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\spritenode.hpp
+	<SceneNode.hpp>
+	<SFML/Graphics/Sprite.hpp>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\commandqueue.hpp
+	<Command.hpp>
+	<queue>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\menustate.hpp
+	<State.hpp>
+	<Container.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\container.hpp
+	<Component.hpp>
+	<vector>
+	<memory>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\component.hpp
+	<SFML/System/NonCopyable.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<memory>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\pausestate.hpp
+	<State.hpp>
+	<Container.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\settingsstate.hpp
+	<State.hpp>
+	<Player.hpp>
+	<Container.hpp>
+	<Button.hpp>
+	<Label.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<array>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\button.hpp
+	<Component.hpp>
+	<ResourceIdentifiers.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<vector>
+	<string>
+	<memory>
+	<functional>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\label.hpp
+	<Component.hpp>
+	<ResourceIdentifiers.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\button.cpp
+	<Button.hpp>
+	<Utility.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\command.cpp
+	<Command.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\commandqueue.cpp
+	<CommandQueue.hpp>
+	<SceneNode.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\component.cpp
+	<Component.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\container.cpp
+	<Container.hpp>
+	<Foreach.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1627832806 d:\usb\learn-sfml-main\project\gui\include\foreach.hpp
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\entity.cpp
+	<Entity.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\gamestate.cpp
+	<GameState.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\label.cpp
+	<Label.hpp>
+	<Utility.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\menustate.cpp
+	<MenuState.hpp>
+	<Button.hpp>
+	<Utility.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/View.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\pausestate.cpp
+	<PauseState.hpp>
+	<Button.hpp>
+	<Utility.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/View.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\player.cpp
+	<Player.hpp>
+	<CommandQueue.hpp>
+	<Aircraft.hpp>
+	<Foreach.hpp>
+	<map>
+	<string>
+	<algorithm>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\scenenode.cpp
+	<SceneNode.hpp>
+	<Command.hpp>
+	<Foreach.hpp>
+	<algorithm>
+	<cassert>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\settingsstate.cpp
+	<SettingsState.hpp>
+	<Utility.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\spritenode.cpp
+	<SpriteNode.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\state.cpp
+	<State.hpp>
+	<StateStack.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\statestack.cpp
+	<StateStack.hpp>
+	<Foreach.hpp>
+	<cassert>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\titlestate.cpp
+	<TitleState.hpp>
+	<Utility.hpp>
+	<ResourceHolder.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\utility.cpp
+	<Utility.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<cmath>
+
+1627832806 source:d:\usb\learn-sfml-main\project\gui\src\world.cpp
+	<World.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<algorithm>
+	<cmath>
+
