@@ -1,5 +1,5 @@
-# learn-sfml
-SFML learning process
+# Learn-sfml
+This is my SFML learning process
 # First Game
 ## Simple Sanke game
 The first game is a simple game in order to learn about SFLM Graphic  
