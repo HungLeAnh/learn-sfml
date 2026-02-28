@@ -31,7 +31,4 @@ Pause Game
 ![Pause Game](https://github.com/Hunglee-wjbu/learn-sfml/blob/master/tetris/Pause_img.PNG)
 Load Saved Game
 ![Load Saved Game](https://github.com/Hunglee-wjbu/learn-sfml/blob/master/tetris/LoadSavedGame_img.PNG)
-<video width="640" height="360" controls>
-  <source src="https://drive.google.com/uc?export=download&id=1jim1zpYivKd2zGCZj8ZfDZFTHjrrcx5D/view" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video]()](https://drive.google.com/file/d/1jim1zpYivKd2zGCZj8ZfDZFTHjrrcx5D/view?usp=drive_link)
